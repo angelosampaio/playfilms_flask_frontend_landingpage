@@ -4,7 +4,7 @@ from flask import send_from_directory,render_template
 import os
 @app.route("/")
 def index():
-    return "Hello world!"
+    return render_template('/welcome.html')
 
 
 @app.route('/uploads/<path:filename>', methods=['GET', 'POST'])
@@ -16,3 +16,11 @@ def download(filename):
 @app.route('/login')
 def login():
     return render_template("login.html")
+
+@app.route('/login-admin')
+def loginadm():
+    return render_template("login-admin.html")
+
+@app.route('/landingpage')
+def landing():
+    return render_template("landingpage.html")

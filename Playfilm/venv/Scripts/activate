@@ -46,7 +46,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV='F:\Git\Python\Exemplos\Flask\aula\venv'
+VIRTUAL_ENV='C:\Users\srang\workspace_dev\playfilms_frontend_python\Playfilm\venv'
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

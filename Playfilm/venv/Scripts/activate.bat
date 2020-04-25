@@ -1,6 +1,6 @@
 @echo off
 
-set "VIRTUAL_ENV=F:\Git\Python\Exemplos\Flask\aula\venv"
+set "VIRTUAL_ENV=C:\Users\srang\workspace_dev\playfilms_frontend_python\Playfilm\venv"
 
 if defined _OLD_VIRTUAL_PROMPT (
     set "PROMPT=%_OLD_VIRTUAL_PROMPT%"
